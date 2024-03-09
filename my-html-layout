@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Website Layout
+	</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		.header {
+			background-color: black;
+			padding: 15px;
+			text-align: center;
+		}
+
+		.nav_menu {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		.nav_menu a {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		.nav_menu a:hover {
+			background-color: black;
+			color: red;
+		}
+		.columnA,
+		.columnB,
+		.columnC {
+			float: left;
+			width: 31%;
+			padding: 15px;
+			text-align: justify;
+		}
+
+		h2 {
+			color: black;
+			text-align: center;
+		}
+
+		@media screen and (max-width:600px) {
+
+			.columnA,
+			.columnB,
+			.columnC {
+				width: 50%;
+			}
+		}
+
+		@media screen and (max-width:400px) {
+
+			.columnA,
+			.columnB,
+			.columnC {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="header">
+		<h2 style="color:white;font-size:200%">
+			My website Layout
+		</h2>
+	</div>
+
+	<div class="nav_menu">
+		<a href="#">Algo</a>
+		<a href="#">DS</a>
+		<a href="#">Language</a>
+	</div>
+
+	<div class="row">
+
+		<div class="columnA">
+			<h2>Column A</h2>
+
+			<p>
+				Prepare for the Recruitment drive of product
+				based companies like Microsoft, Amazon, Adobe
+				etc with a free online placement preparation
+				course. The course focuses on various MCQ's
+				& Coding question likely to be asked in the
+				interviews & make your upcoming placement
+				season efficient and successful.
+			</p>
+
+		</div>
+
+		<div class="columnB">
+			<h2>Column B</h2>
+
+			<p>
+				Et dignissimos obcaecati sed assumenda veritatis 
+                qui excepturi inventore ut architecto tenetur 
+                est assumenda harum aut dicta dolorum non 
+                aliquam laborum. Sit saepe sunt qui quisquam 
+                dolore qui debitis omnis. Et ipsa sunt a
+                 repudiandae consectetur et exercitationem sint.
+                  At recusandae sunt quo natus omnis et cumque 
+                  adipisci aut porro quos qui dicta blanditiis!
+			</p>
+
+		</div>
+
+		<div class="columnC">
+			<h2>Column C</h2>
+
+
+
+			<p>
+				<p>Lorem ipsum dolor sit amet. Non doloremque
+                     assumenda sed expedita error eos provident 
+                     cumque vel velit animi ut dolores fuga quo 
+                     aperiam magnam. Ut illum natus et voluptatibus
+                      quis ex dolores labore est quam sint.
+                       Aut quos voluptatem At beatae assumenda 
+                       ab nesciunt dolore. Nam soluta nulla et
+                        sapiente consequatur aut sequi tempore 
+                        sit repudiandae deleniti ut quas placeat
+                         aut rerum neque. </p>
+
+			</p>
+
+		</div>
+	</div>
+</body>
+
+</html>
